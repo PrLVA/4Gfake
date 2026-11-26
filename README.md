@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # >_ AntenaTalm Guard (Matrix Cell Guard)
 
 > **Android Cellular Network Security & IMSI Catcher / Rogue Base Station Detector**
@@ -56,3 +57,7 @@ The project includes an automated JUnit test suite verifying threat scoring and 
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+=======
+# 4Gfake
+Detectar antenas de telefonía falsas
+>>>>>>> 4Gfake/main
