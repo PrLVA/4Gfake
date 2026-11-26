@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/matrix_surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="> MATRIX PROTOCOLS // GUIA DE SEGURIDAD"
+            android:textColor="@color/matrix_green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:text="[?] ¿Qué es un IMSI Catcher / Stingray?"
+            android:textColor="@color/matrix_green"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="monospace"
+            android:text="Un IMSI Catcher es un dispositivo Man-In-The-Middle que simula ser una celda de telefonía legítima para forzar la conexión de los móviles y capturar IMSI, llamadas y SMS."
+            android:textColor="@color/matrix_text_secondary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:text="[!] Medidas de Mitigación Recomendadas"
+            android:textColor="@color/matrix_green"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="monospace"
+            android:text="1. Desactiva la red 2G (GSM):\n   Ve a Ajustes > Redes móviles > Ajustes de SIM y desactiva 'Permitir 2G'. Las antenas falsas suelen forzar el cambio a 2G para romper el cifrado.\n\n2. Usa conexiones cifradas (VPN / HTTPS):\n   Utiliza una VPN de confianza y navegadores con HTTPS obligatorio.\n\n3. Aplicaciones de mensajería cifrada de extremo a extremo:\n   Usa apps con cifrado E2EE (como Signal o WhatsApp) para evitar interceptación."
+            android:textColor="@color/matrix_text_secondary"
+            android:textSize="12sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCloseGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:text="[ ENTENDIDO ]"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/matrix_green" />
+
+    </LinearLayout>
+
+</ScrollView>

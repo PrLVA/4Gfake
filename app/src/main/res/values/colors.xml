@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Matrix Cyberpunk Color Palette -->
+    <color name="matrix_bg">#0A0E0A</color>
+    <color name="matrix_surface">#121813</color>
+    <color name="matrix_card_stroke">#1E3D24</color>
+    <color name="matrix_green">#00FF41</color>
+    <color name="matrix_green_dim">#00B32D</color>
+    <color name="matrix_green_dark">#052B10</color>
+    <color name="matrix_text_primary">#00FF41</color>
+    <color name="matrix_text_secondary">#7AFF9B</color>
+    <color name="matrix_text_muted">#427D52</color>
+
+    <!-- Matrix Alert Colors -->
+    <color name="matrix_amber">#FFD600</color>
+    <color name="matrix_amber_dark">#241C00</color>
+    <color name="matrix_red">#FF1744</color>
+    <color name="matrix_red_dark">#2B0409</color>
+</resources>
